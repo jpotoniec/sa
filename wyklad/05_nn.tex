@@ -215,4 +215,19 @@ $\cdot$ to iloczyn element po elemencie, a nie wektorowy; $f$ to funkcja aktywac
 {\vfill\footnotesize A. Géron, \emph{Hands-On Machine Learning with Scikit-Learn and TensorFlow} 2017}
 \end{frame}
 
+\begin{frame}{Regularyzacja}
+\begin{itemize}
+\item<+-> early stopping
+\item<+-> regularyzacja $L_1$ i $L_2$
+\item<+-> dropout
+\only<.>
+{
+\\\centering
+\includegraphics[width=.7\textwidth]{mlst_1109.png}
+}
+\item<+-> max-norm
+\[ \vec{w} = \begin{cases} \vec{w}\frac{r}{\left\|\vec{w}\right\|_2} & \left\|\vec{w}\right\| > r \\ \vec{w} & \left\|\vec{w}\right\| \leq r \end{cases} \]
+\end{itemize}
+\end{frame}
+
 \end{document}

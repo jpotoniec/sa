@@ -1,4 +1,4 @@
-SRC=01_wstep.tex 02_regresja_liniowa.tex 03_regularyzacja.tex 04_klasyfikacja.tex 05_nn.tex
+SRC=01_wstep.tex 02_regresja_liniowa.tex 03_regularyzacja.tex 04_klasyfikacja.tex 05_nn.tex 06_cnn.tex 07_rl.tex 08_autoencoders.tex
 NOTES_SRC=$(shell grep -l '\\note' $(SRC))
 
 PDF=$(SRC:%.tex=%.pdf) $(NOTES_SRC:%.tex=%_notes.pdf) cwiczenia_odp.pdf
